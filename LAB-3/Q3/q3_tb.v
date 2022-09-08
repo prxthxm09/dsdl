@@ -1,9 +1,9 @@
 `timescale 1ns/1ns
 `include "q3.v"
 module q3_tb();
-reg x2,x3,x4,x5;
+reg x1,x2,x3,x4,x5;
 wire f;
-q3 q3(x2,x3,x4,x5,f);
+q3 q3(x1,x2,x3,x4,x5,f);
 initial
 begin
 $dumpfile("q3_tb.vcd");
