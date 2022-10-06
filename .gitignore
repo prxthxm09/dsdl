@@ -50,6 +50,7 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+.key
 
 #key
 .universal_access_token.key
