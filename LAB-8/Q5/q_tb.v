@@ -13,7 +13,7 @@ $dumpvars(0,q_tb);
 for(j=0;j<16;j=j+1)
 begin
 i=0;
-i[j]=1;
+i[j]=1; #20;
 end
 
 $display("Test Complete");
