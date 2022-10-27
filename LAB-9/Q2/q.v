@@ -5,7 +5,7 @@ output f,g,h;
 wire [15:0]c;
 fourtosixteen s0(i,c,En);
 assign f = c[11]|c[10]|c[7]|c[3]|c[14]|c[6];
-assign g = c[14]|c[10]|c[1]|c[0];
+assign g = c[14]|c[10]|c[2]|c[3];
 assign h = c[1]|c[0]|c[14]|c[15]|c[7]|c[3];
 
 endmodule
